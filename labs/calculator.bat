@@ -43,5 +43,7 @@ if "%op%"=="5" (
 )
 endlocal
 pause
+color f
+pause
 
 
