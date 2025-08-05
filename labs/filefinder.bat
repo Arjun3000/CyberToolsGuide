@@ -1,6 +1,9 @@
 @echo off
 setlocal enabledelayedexpansion
+echo.
+echo.
 echo ==========================WELCOME TO THE FILE FINDER BY ARJUN SHARMA============================
+echo.
 pause
 color 0B
 set /p filename=ENTER THE FILE OR FOLDER NAME YOU WANT TO FIND IN THIS FOLDER : 
@@ -21,8 +24,10 @@ if exist "%filename%" (
     if "!create!"=="1" (
         echo. > "!filename!"
         echo THE FILE IS CREATED WITH THE NEW TIMESTAMP. YOU CAN FIND IT WITH THE DATE MODIFIED.
+        echo THANKS FOR USING THE CODE. THIS CODE IS WRITTEN BY ARJUN SHARMA
     ) else (
         echo THANKS FOR USING THE CODE. THIS CODE IS WRITTEN BY ARJUN SHARMA
     )
 )
 pause
+color f

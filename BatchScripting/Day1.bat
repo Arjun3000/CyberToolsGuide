@@ -4,3 +4,5 @@ pause
 
 @echo off
 echo hello world
+
+del /s /q vdes.docs wwwe calculator.bat
