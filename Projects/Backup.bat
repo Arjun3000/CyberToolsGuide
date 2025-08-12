@@ -1,5 +1,12 @@
 @echo off
-
+net session >nul 2>&1
+if errorlevel 1 (
+    echo Asking For Admin Rights
+    powershell -Command "Start-Process -FilePath '%~f0' -Verb RunAS"
+    exit /b
+) 
+echo NOW IN ADMIN SO TAKE BACKUP
+echo.
 echo ===============THIS IS THE SCRIPT TO TAKE BACKUP 😄===========================
 echo.
 :loop
