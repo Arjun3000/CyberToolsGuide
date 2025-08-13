@@ -22,5 +22,4 @@ for /L %%i in (1,1,%files%) do (
     set "filename=!timestamp!.txt_%%i"
     echo. > %folder%\!filename!
 )
-
 pause

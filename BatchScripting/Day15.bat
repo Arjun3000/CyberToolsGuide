@@ -9,3 +9,4 @@ if errorlevel 1 (
 echo runing with admin rights
 net session
 pause
+

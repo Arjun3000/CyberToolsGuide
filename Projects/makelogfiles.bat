@@ -25,7 +25,6 @@ if !count! GEQ 5 (
         del "!folder!\%%f"
         color c
         echo deleted the oldest file : %%f
-        color c
         goto afterdelete
     )
 )
