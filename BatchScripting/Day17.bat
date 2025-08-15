@@ -24,6 +24,7 @@ pause
 
 echo now performing PING OF DEATH
 ping -l 65500 -t 127.0.0.1
+pause
 
 
 
